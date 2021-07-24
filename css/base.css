@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+body {
+    font-size: 20px;
+}
+
+h1,h2,h3{
+    text-align: center;
+    background-color: rgb(126, 208, 219);
+}
+
+div {
+    background-image: url(../img/toyama.png);
+    background-repeat: no-repeat;
+    background-size: 85%;
+}
+
+#menu  > ul > li {
+    display: inline;
+    margin: 0 30px  0 30px;
+    padding: 4px;
+    border: 1px solid #666;
+    border-radius: 4px;
+    background: linear-gradient(#FFFFFF,#888888);
+
+}
+
+
