@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+a {
+    text-decoration: none;
+}
+
+#menu > ul {
+    /* 行頭記号を指定するプロパティ */
+    list-style: none;
+    /* パディング(コンテンツとボーダーの間のスペース）のサイズを指定するプロパティ */
+    padding-left: 0px;
+}
+
+#menu > ul > li {
+    /* ブロック要素をインライン要素に変更する */
+    display: inline;
+    /* マージン(隣接する要素同士のスペース)のサイズを指定するプロパテ */
+    margin: 0 16px 0 0;
+    /* パディング：4か所まとめて指定もできる */
+    padding: 4px;
+    /* ボーダー */
+    border: 1px solid #666;
+    /* ボーダーの角を丸める */
+    border-radius: 4px;
+    /* 背景色：グラデーション */
+    background: linear-gradient(#FFFFFF,#888888);
+}
+
+.box-wrapper {
+    overflow: hidden;
+}
+
+#box1 {
+    float: left;
+    width: 49%;
+    height: 200px;
+    background-color: chocolate;
+}
+
+#box2 {
+    float: left;
+    margin-left: 2%;
+    width: 49%;
+    height: 200px;
+    background-color: darkcyan;
+}
+
+#box3 {
+    height: 200px;
+    background-color: darkolivegreen;
+}
